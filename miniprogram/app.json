@@ -21,17 +21,23 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "",
+        "iconPath": "./images/tabBar/index.png",
+        "selectedIconPath": "./images/tabBar/index-selected.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/explore/index",
-        "text": "发现"
+        "text": "发现",
+        "iconPath": "./images/tabBar/explore.png",
+        "selectedIconPath": "./images/tabBar/explore-selected.png"
       },
       {
         "pagePath": "pages/about/index",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "./images/tabBar/about.png",
+        "selectedIconPath": "./images/tabBar/about-selected.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
