@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/explore/index",
+    "pages/about/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -14,5 +16,22 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "云开发 QuickStart",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/explore/index",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/about/index",
+        "text": "我的"
+      }
+    ]
   }
 }
